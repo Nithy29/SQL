@@ -11,13 +11,13 @@ In this homework assignment, I will apply my new SQL skills to analyze historica
 The following taks will be accomplished:
 
 1. [Data Modeling](#Data-Modeling):
-2.         Define a database model to store the credit card transactions data and create a new PostgreSQL database using the model.
+        Define a database model to store the credit card transactions data and create a new PostgreSQL database using the model.
 
 2. [Data Engineering](#Data-Engineering): 
-3.         Create a database schema on PostgreSQL and populate the database from the CSV files provided.
+        Create a database schema on PostgreSQL and populate the database from the CSV files provided.
 
 3. [Data Analysis](#Data-Analysis): 
-4.        Analyzing the data to identify possible fraudulent transactions trends data and develop a report.
+        Analyzing the data to identify possible fraudulent transactions trends data and develop a report.
 
 ---
 
