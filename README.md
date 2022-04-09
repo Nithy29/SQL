@@ -19,14 +19,12 @@ The following taks will be accomplished:
 3. [Data Analysis](#Data-Analysis): 
         Analyzing the data to identify possible fraudulent transactions trends data and develop a report.
 
-There are two prt to this analysis. File query.sql has snweres to each sections.
-        Part 1 - has a section called *** Part 1.***  Each quection's answeres will be under this sections with questions as heading
 
 
 ## Note to CFO
-  Please note that file **CFO_ReadMe.md** has all the part 1 analysis. 
-  The directory **SQL Files** has all the work .sql files
-  The directory **Starter_Files** has part 2 analysis
+  - Please note that file **CFO_ReadMe.md** has all the part 1 analysis. 
+  - The directory **SQL Files** has all the work .sql files
+  - The directory **Starter_Files** has part 2 analysis
 
 
 
