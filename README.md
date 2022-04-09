@@ -72,21 +72,38 @@ There are two prt to this analysis. File query.sql has snweres to each sections.
   - **ANSWER:** See under section ***Part 1, Question 8*** in file - ***query.sql*** 
   
     The top 5 Merchants that are prone to be hacked:
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Count</th>
+        </tr>
+        <tr>
+          <td>Wood-Ramirez</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>Hood-Phillips</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Baker Inc</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Mcdaniel, Hines and Mcfarland</td>
+          <td>5</td>
+        </tr>  
+        <tr>
+          <td>Hamilton-Mcfarland</td>
+          <td>5</td>
+        </tr>   
+      </table>
+   
+  
     
-		|Name                           |Count|
-		|-------------------------------|-----|
-		|Wood-Ramirez                   |  7  |
-		|Hood-Phillips                  |  6  |
-		|Baker Inc                      |  6  |
-		|Mcdaniel, Hines and Mcfarland  |  5  |
-		|Hamilton-Mcfarland             |  5  |
-		|-------------------------------|-----|
-  
-  
 * Create a view for each of your queries.
 
   - **PART 1 Question 9 ANSWER:**  See section ***Create VIEWS for all queries*** in query.sql
 
 
 ---
-
