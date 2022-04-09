@@ -6,58 +6,56 @@
 
 ## Background
 
-This analysis is requested by the firm's CFO. SQL skills to analyze historical credit card transactions and consumption patterns in order to identify possible fraudulent transactions. This analysis will help the firm to identify potential fraudulent credit card transactions. The reports are generated based on the fraud_detection database.
+We have done all the requested analysis for you.  Instructons are and final analysis outcomes are included in this file. 
 
-The following taks will be accomplished:
+We have used SQL skills to analyze historical credit card transactions and consumption patterns in order to identify possible fraudulent transactions. The data used for this analysis based on the fraud_detection database.
 
-1. [Data Modeling](#Data-Modeling):
-        Define a database model to store the credit card transactions data and create a new PostgreSQL database using the model.
+There are two prt to this analysis. File query.sql has all the SQL data analysis components under section - Part 1. SQL statements realted to each of these questions are listed within this sections with question number as their heading. 
 
-2. [Data Engineering](#Data-Engineering): 
-        Create a database schema on PostgreSQL and populate the database from the CSV files provided.
+Direcdtory __*HM Files** has the following files__
+  	QuickDBD.pdf	- QuickDBD diagram Documentation
+	QuickDBD.png	- QuickDBD Table relationship
+	create_db.sql	- Database create command
+	query.sql	- Data Analysis SQL statmenets
+	schema.sql	- Table creations and Table alter command
+  
 
-3. [Data Analysis](#Data-Analysis): 
-        Analyzing the data to identify possible fraudulent transactions trends data and develop a report.
-
-There are two prt to this analysis. File query.sql has snweres to each sections.
-        Part 1 - has a section called *** Part 1.***  Each quection's answeres will be under this sections with questions as heading
-
-
-#### Part 1:
+#### Part 1: Analysis Outcome
+   ##### Plese refer to file ***query.sql in directory HM Files***
+   ##### _See under section - Pat 1_
 
 * Some fraudsters hack a credit card by making several small transactions (generally less than $2.00), which are typically ignored by cardholders. 
 
   * How can you isolate (or group) the transactions of each cardholder?
 
-    - **ANSWER:** See under section ***Part 1, Question 1*** in file - ***query.sql***
+    - **ANSWER:** ***Question 1***
 
   * Count the transactions that are less than $2.00 per cardholder. 
    
-    - **ANSWER:** See under section ***Part 1, Question 2*** in file - ***query.sql***
+    - **ANSWER:** ***Question 2***
   
   * Is there any evidence to suggest that a credit card has been hacked? Explain your rationale.
 
     - **ANSWER:**  ***YES***. There are evidence of several small transactions (less than $2) on 53 credit cards. 
 	  Six credit cards recorded 10+ small transactions. This indicates these credit cards may have been hacked. 
-	  This conclusion is based on the result from question 2 above.
 
 
 * Take your investigation a step futher by considering the time period in which potentially fraudulent transactions are made. 
 
   * What are the top 100 highest transactions made between 7:00 am and 9:00 am?
 
-    - **ANSWER:** See under section ***Part 1, Question 4*** in file - ***query.sql***
+    - **ANSWER:** ***Question 4*** 
 
 
   * Do you see any anomalous transactions that could be fraudulent?
 
-    - **ANSWER:** See under section ***Part 1, Question 5*** in file - ***query.sql***
+    - **ANSWER:** ***Question 5*** 
     
 	  Based on the result from Question 4, there are 9 transactions have transaction amount greater than $100. The result of 91 transaction out of 100 have transaction amount less than $100, in fact, they are between $23.13 and $11.65 with a low spread. However, the top 9 transactions would be considered suspicious. The transactions jumped from $100 to $748, then there are several transactions in the range of $1000, and then to the maximum of $1894.
 
   * Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day?
 
-    - **ANSWER:** See under section ***Part 1, Question 6*** in file - ***query.sql***  
+    - **ANSWER:** ***Question 6*** 
     
 	  Query 1 reveals that 30 potentially fraudulent transactions happened between 7am to 9am and averaging 15 transaction per hours block. Query 2 reveals that 320 potentially fraudulent transactions happened outside of 7am and 9am and averaging 14.54 transaction per hour block. Based on this data, we can see that the averages are very close. This tells us that there are potential fraudulent data occurring even outside of 7-9am.  But it is true that transactions are slightly higher during 7-9am windows
     
@@ -69,7 +67,7 @@ There are two prt to this analysis. File query.sql has snweres to each sections.
 
 * What are the top 5 merchants prone to being hacked using small transactions?
   
-  - **ANSWER:** See under section ***Part 1, Question 8*** in file - ***query.sql*** 
+    - **ANSWER:** ***Question 8***
   
     The top 5 Merchants that are prone to be hacked:
       <table>
@@ -103,7 +101,7 @@ There are two prt to this analysis. File query.sql has snweres to each sections.
     
 * Create a view for each of your queries.
 
-  - **PART 1 Question 9 ANSWER:**  See section ***Create VIEWS for all queries*** in query.sql
+  - **ANSWER:** ***Question 9***  See section ***Create VIEWS for all queries*** in query.sql
 
 
 ---
