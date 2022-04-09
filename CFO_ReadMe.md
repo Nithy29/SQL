@@ -21,8 +21,7 @@ Direcdtory __*HM Files** has the following files__
   
 
 #### Part 1: Analysis Outcome
-   ##### Plese refer to file ***query.sql in directory HM Files***
-   ##### _See under section - Pat 1_
+   ##### Plese refer to file ***query.sql in directory HM Files*** ##### _See under section - Pat 1_
 
 * Some fraudsters hack a credit card by making several small transactions (generally less than $2.00), which are typically ignored by cardholders. 
 
