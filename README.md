@@ -6,9 +6,9 @@
 
 ## Background
 
-This analysis is requested by the firm's CFO. SQL skills to analyze historical credit card transactions and consumption patterns in order to identify possible fraudulent transactions. This analysis will help the firm to identify potential fraudulent credit card transactions. The reports are generated based on the fraud_detection database.
+This analysis is requested by the firm's CFO. SQL skills us utilized to analyze the historical credit card transactions and consumption patterns in order to identify possible fraudulent transactions. This analysis will help the firm to identify potential fraudulent credit card transactions. The reports are generated based on the newly created fraud_detection database.
 
-The following taks will be accomplished:
+The following taks are accomplished:
 
 1. [Data Modeling](#Data-Modeling):
         Define a database model to store the credit card transactions data and create a new PostgreSQL database using the model.
@@ -24,7 +24,7 @@ The following taks will be accomplished:
 ## Note to CFO
   - Please note that file **CFO_ReadMe.md** has all the part 1 analysis. 
   - The directory **HM Files** has all the work files and .sql files
-  - The directory **Starter_Files** has part 2 analysis
+  - The directory **Starter_Files** has part 2 analysis and challenge analysis
 
 
 
