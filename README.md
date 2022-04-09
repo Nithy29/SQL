@@ -23,7 +23,7 @@ The following taks will be accomplished:
 
 ## Note to CFO
   - Please note that file **CFO_ReadMe.md** has all the part 1 analysis. 
-  - The directory **SQL Files** has all the work .sql files
+  - The directory **HM Files** has all the work .sql files
   - The directory **Starter_Files** has part 2 analysis
 
 
