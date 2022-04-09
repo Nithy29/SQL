@@ -10,13 +10,13 @@ This analysis is requested by the firm's CFO. SQL skills us utilized to analyze 
 
 The following taks are accomplished:
 
-1. [Data Modeling]:
+1. Data Modeling:
         Define a database model to store the credit card transactions data and create a new PostgreSQL database using the model.
 
-2. [Data Engineering]: 
+2. Data Engineering: 
         Create a database schema on PostgreSQL and populate the database from the CSV files provided.
 
-3. [Data Analysis]: 
+3. Data Analysis: 
         Analyzing the data to identify possible fraudulent transactions trends data and develop a report.
 
 
