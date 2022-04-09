@@ -100,7 +100,7 @@ Direcdtory __*HM Files** has the following files__
     
 * Create a view for each of your queries.
 
-  - **ANSWER:** ***Under heading:- _Question 9_***  See section ***Create VIEWS for all queries*** in query.sql
+  - **ANSWER:** ***Under heading:- _Question 9_***  See section ***Part 1 - Creating VIEWS*** in query.sql
 
 
 ---
