@@ -69,33 +69,43 @@ Direcdtory __*HM Files** has the following files__
     - **ANSWER:** ***Under heading:- _Question 8_***
   
     The top 5 Merchants that are prone to be hacked:
-      <table>
-        <tr>
-          <th>Name</th>
-          <th>Count</th>
-        </tr>
-        <tr>
-          <td>Wood-Ramirez</td>
-          <td>7</td>
-        </tr>
-        <tr>
-          <td>Hood-Phillips</td>
-          <td>6</td>
-        </tr>
-        <tr>
-          <td>Baker Inc</td>
-          <td>6</td>
-        </tr>
-        <tr>
-          <td>Mcdaniel, Hines and Mcfarland</td>
-          <td>5</td>
-        </tr>  
-        <tr>
-          <td>Hamilton-Mcfarland</td>
-          <td>5</td>
-        </tr>   
-      </table>
-   
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>Wood-Ramirez</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Hood-Phillips</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Baker Inc</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Mcdaniel, Hines and Mcfarland</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Hamilton-Mcfarland</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+
   
     
 * Create a view for each of your queries.
